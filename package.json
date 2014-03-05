@@ -1,0 +1,27 @@
+{
+  "name": "marionette-sortable-collection-view",
+  "version": "0.0.0",
+  "description": "Sortable collection view mixin for Backbone.Marionette",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrolfs/marionette-sortable-collection-view.git"
+  },
+  "keywords": [
+    "backbone",
+    "marionette",
+    "sort",
+    "collection",
+    "view",
+    "composite"
+  ],
+  "author": "Jamie Rolfs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrolfs/marionette-sortable-collection-view/issues"
+  },
+  "homepage": "https://github.com/jrolfs/marionette-sortable-collection-view"
+}
