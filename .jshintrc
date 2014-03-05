@@ -1,0 +1,7 @@
+{
+  "expr": true,
+  "globals": {
+    "_": true,
+    "Backbone": true
+  }
+}
