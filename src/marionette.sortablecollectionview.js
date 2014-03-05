@@ -71,5 +71,13 @@ Marionette.SortableCollectionView = {
         this.endBuffering();
 
         return true;
+    },
+
+    _getContainer: function (collectionView) {
+        if (_.isFunction(collectionView.getItemViewContainer)) {
+            return collectionView.getItemViewContainer(collectionView);
+        } else {
+            return collectionView.$el;
+        }
     }
 };
